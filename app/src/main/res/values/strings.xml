@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">MyFirebase</string>
+    <string name="profile_activity_label">Profile</string>
+    <string name="chat_activity_label">Chat</string>
+
+    <!-- Facebook Login -->
+    <string name="facebook_application_id" translatable="false">778237359239565</string>
+    <string name="facebook_login_protocol_scheme" translatable="false" tools:ignore="UnusedResources">fb778237359239565</string>
+
+    <!-- XML -->
+
+        <!-- activity_main.xml -->
+        <string name="main_activity_description">Initiation to Firebase</string>
+        <string name="login">Login</string>
+        <string name="chat_with_mentor">Chat with mentor</string>
+
+        <!-- activity_profile.xml -->
+        <string name="text_input_username">Username</string>
+        <string name="text_view_email">Email</string>
+        <string name="check_box_is_mentor">Is mentor</string>
+        <string name="button_update_account">Update</string>
+        <string name="button_sign_out_account">Sign Out</string>
+        <string name="button_delete_account">Delete account</string>
+
+        <!-- activity_chat.xml -->
+        <string name="text_input_title_chat_activity">Write your message</string>
+        <string name="button_title_chat_activity">Send</string>
+        <string name="text_view_mentor_chat_error">None of message at the moment</string>
+
+    <!-- JAVA -->
+
+        <!-- MainActivity.java -->
+        <string name="success_to_create_account">Success</string>
+        <string name="error_to_create_account_no_network">No network</string>
+        <string name="error_to_create_account_unknown_error">Unknown error</string>
+        <string name="error_to_create_account_cancel">Cancel</string>
+        <string name="button_login_text_logged">Display the profile</string>
+        <string name="button_login_text_not_logged">@string/login</string>
+        <string name="user_not_logged">You are not logged</string>
+
+        <!-- ProfileActivity.java -->
+        <string name="info_no_username_found">Username not found</string>
+        <string name="info_no_email_found">Email not found</string>
+        <string name="delete_account">Delete account</string>
+        <string name="popup_message_confirmation_delete_account">Are you sure to delete the account?</string>
+        <string name="ok_text">Yes</string>
+        <string name="no_text">No</string>
+        <string name="error_unknown_error">Unknown error</string>
+
+        <!-- ChatActivity.java -->
+        <string name="popup_title_permission_files_acess">This application needed permission to work.</string>
+        <string name="toast_title_no_image_chosen">None of image chosen</string>
+
+        <!-- NotificationsService.java -->
+        <string name="notification_title">You have received a notification</string>
+        <string name="default_notification_channel_id">fcm_default_channel</string>
+        <string name="title_into_notification">Notification from Firebase</string>
+        <string name="channel_description">This channel is used to myFirebase</string>
+
+</resources>
